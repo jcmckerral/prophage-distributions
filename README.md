@@ -1,11 +1,11 @@
-# Prophage-distributions
+# Prophage distributions
 Data and notebook of a deep dive analysis into prophage distributions on Genbank.
 
 Prophages mined with the prediction tool Phispy (https://github.com/linsalrob/PhiSpy).
 
 Python version 3.8.13.
 
-Please note that this analysis makes use of R packages, meaning that you will need a working installation of R on your machine (with the following packages: diptest, permute, lattice, spatstat) and the python package rpy2.
+Please note that this analysis makes use of R packages, meaning that you will need a working installation of R on your machine (with the following packages: diptest, permute, lattice, spatstat), the python package rpy2, and for your python environment to be configured to find R.
 
 This work also makes use of the GTDB taxonomy and taxa classification tool GTDB-tk. 
 
